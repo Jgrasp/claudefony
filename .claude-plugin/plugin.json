@@ -1,0 +1,11 @@
+{
+  "name": "claudefony",
+  "version": "0.1.0",
+  "description": "Claude Code skills for Symfony 6.4 LTS and 7.x development",
+  "author": {
+    "name": "Quentin Briais - Jgrasp"
+  },
+  "repository": "https://github.com/jgrasp/claudefony",
+  "license": "MIT",
+  "keywords": ["symfony", "php", "scaffolding", "testing", "debugging"]
+}
