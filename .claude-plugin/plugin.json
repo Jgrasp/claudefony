@@ -1,6 +1,6 @@
 {
   "name": "claudefony",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "Claude Code skills for Symfony 6.4 LTS and 7.x development",
   "author": {
     "name": "Quentin Briais - Jgrasp"

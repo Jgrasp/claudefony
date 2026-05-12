@@ -1,6 +1,14 @@
 ---
 name: symfony-conventions
-description: Symfony PHP coding conventions and best practices. This skill MUST be applied whenever writing or modifying PHP code in a Symfony project. It defines mandatory rules for class design, service declaration, typing, configuration style, and code organization. These rules apply across all other claudefony skills unless a specific skill explicitly overrides them.
+description: Symfony PHP coding rules — final/readonly classes, constructor property promotion, interface segregation, attributes over YAML, framework constants over magic values, early returns, naming suffixes, directory conventions. Apply when creating or modifying any service, controller, entity, command, repository, event listener, voter, form type, twig extension, or twig component.
+when_to_use: |
+  Apply automatically when:
+  - About to Write or Edit any .php file under src/ or tests/
+  - The user asks to create, add, generate, or refactor a service, controller, entity, command, repository, event listener, event subscriber, voter, form type, twig extension, twig component, live component, message handler, factory, resolver, calculator, or any other PHP class
+  - The user mentions: autowire, autowiring, dependency injection, service decoration, AsAlias, AsDecorator, AutowireDecorated, readonly class, final class, constructor injection, interface segregation, attribute routing, AsCommand, AsTwigComponent, AsLiveComponent
+paths:
+  - "src/**/*.php"
+  - "tests/**/*.php"
 ---
 
 # Symfony Conventions
