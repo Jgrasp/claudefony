@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/Jgrasp/claudefony/compare/v1.0.0...v1.0.1) (2026-05-12)
+
+
+### Bug Fixes
+
+* improve symfony-conventions auto-invocation triggers ([80381bb](https://github.com/Jgrasp/claudefony/commit/80381bbe2447eb5bf3406cb4ff1ee56363eb29bf))
+
 ## 1.0.0 (2026-04-01)
 
 
